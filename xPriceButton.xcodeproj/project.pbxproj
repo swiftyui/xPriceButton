@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5DCD9C24F7B0B300C75460 /* ChangeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DCD9B24F7B0B300C75460 /* ChangeObserver.swift */; };
+		3ABDE11124F7733B00CE8F6D /* xPriceButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE11024F7733B00CE8F6D /* xPriceButtonApp.swift */; };
+		3ABDE11324F7733B00CE8F6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE11224F7733B00CE8F6D /* ContentView.swift */; };
+		3ABDE11524F7733C00CE8F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABDE11424F7733C00CE8F6D /* Assets.xcassets */; };
+		3ABDE11824F7733C00CE8F6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABDE11724F7733C00CE8F6D /* Preview Assets.xcassets */; };
+		3ABDE12124F7736700CE8F6D /* PriceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE12024F7736700CE8F6D /* PriceButton.swift */; };
+		3ABDE12324F7739400CE8F6D /* ButtonStyle + PriceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE12224F7739400CE8F6D /* ButtonStyle + PriceButton.swift */; };
+		3ABDE12624F773C100CE8F6D /* MPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE12524F773C100CE8F6D /* MPrice.swift */; };
+		3ABDE12824F773E200CE8F6D /* FormattedPriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE12724F773E200CE8F6D /* FormattedPriceLabel.swift */; };
+		3ABDE12B24F7740E00CE8F6D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE12A24F7740E00CE8F6D /* Colors.swift */; };
+		3ABDE12D24F7742900CE8F6D /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE12C24F7742900CE8F6D /* Format.swift */; };
+		3ABDE13124F774AD00CE8F6D /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDE13024F774AD00CE8F6D /* Int.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5DCD9B24F7B0B300C75460 /* ChangeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeObserver.swift; sourceTree = "<group>"; };
+		3ABDE10D24F7733B00CE8F6D /* xPriceButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xPriceButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABDE11024F7733B00CE8F6D /* xPriceButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xPriceButtonApp.swift; sourceTree = "<group>"; };
+		3ABDE11224F7733B00CE8F6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3ABDE11424F7733C00CE8F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ABDE11724F7733C00CE8F6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ABDE11924F7733C00CE8F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABDE12024F7736700CE8F6D /* PriceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceButton.swift; sourceTree = "<group>"; };
+		3ABDE12224F7739400CE8F6D /* ButtonStyle + PriceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ButtonStyle + PriceButton.swift"; sourceTree = "<group>"; };
+		3ABDE12524F773C100CE8F6D /* MPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPrice.swift; sourceTree = "<group>"; };
+		3ABDE12724F773E200CE8F6D /* FormattedPriceLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormattedPriceLabel.swift; sourceTree = "<group>"; };
+		3ABDE12A24F7740E00CE8F6D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3ABDE12C24F7742900CE8F6D /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		3ABDE13024F774AD00CE8F6D /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ABDE10A24F7733B00CE8F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABDE10424F7733B00CE8F6D = {
+			isa = PBXGroup;
+			children = (
+				AE19C35424F8BEBB00DB5C9D /* Extensions */,
+				3ABDE12924F7740300CE8F6D /* Utils */,
+				3ABDE12424F773B300CE8F6D /* Model */,
+				3ABDE11F24F7735900CE8F6D /* Components */,
+				3ABDE10F24F7733B00CE8F6D /* xPriceButton */,
+				3ABDE10E24F7733B00CE8F6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ABDE10E24F7733B00CE8F6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE10D24F7733B00CE8F6D /* xPriceButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ABDE10F24F7733B00CE8F6D /* xPriceButton */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE11024F7733B00CE8F6D /* xPriceButtonApp.swift */,
+				3ABDE11224F7733B00CE8F6D /* ContentView.swift */,
+				3ABDE11424F7733C00CE8F6D /* Assets.xcassets */,
+				3ABDE11924F7733C00CE8F6D /* Info.plist */,
+				3ABDE11624F7733C00CE8F6D /* Preview Content */,
+			);
+			path = xPriceButton;
+			sourceTree = "<group>";
+		};
+		3ABDE11624F7733C00CE8F6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE11724F7733C00CE8F6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3ABDE11F24F7735900CE8F6D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE12724F773E200CE8F6D /* FormattedPriceLabel.swift */,
+				3ABDE12224F7739400CE8F6D /* ButtonStyle + PriceButton.swift */,
+				3ABDE12024F7736700CE8F6D /* PriceButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3ABDE12424F773B300CE8F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE12524F773C100CE8F6D /* MPrice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ABDE12924F7740300CE8F6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE12C24F7742900CE8F6D /* Format.swift */,
+				3A5DCD9B24F7B0B300C75460 /* ChangeObserver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AE19C35424F8BEBB00DB5C9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDE13024F774AD00CE8F6D /* Int.swift */,
+				3ABDE12A24F7740E00CE8F6D /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ABDE10C24F7733B00CE8F6D /* xPriceButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABDE11C24F7733C00CE8F6D /* Build configuration list for PBXNativeTarget "xPriceButton" */;
+			buildPhases = (
+				3ABDE10924F7733B00CE8F6D /* Sources */,
+				3ABDE10A24F7733B00CE8F6D /* Frameworks */,
+				3ABDE10B24F7733B00CE8F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xPriceButton;
+			packageProductDependencies = (
+			);
+			productName = xPriceButton;
+			productReference = 3ABDE10D24F7733B00CE8F6D /* xPriceButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ABDE10524F7733B00CE8F6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3ABDE10C24F7733B00CE8F6D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 3ABDE10824F7733B00CE8F6D /* Build configuration list for PBXProject "xPriceButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ABDE10424F7733B00CE8F6D;
+			packageReferences = (
+			);
+			productRefGroup = 3ABDE10E24F7733B00CE8F6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ABDE10C24F7733B00CE8F6D /* xPriceButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ABDE10B24F7733B00CE8F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABDE11824F7733C00CE8F6D /* Preview Assets.xcassets in Resources */,
+				3ABDE11524F7733C00CE8F6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ABDE10924F7733B00CE8F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABDE12D24F7742900CE8F6D /* Format.swift in Sources */,
+				3ABDE12124F7736700CE8F6D /* PriceButton.swift in Sources */,
+				3ABDE12824F773E200CE8F6D /* FormattedPriceLabel.swift in Sources */,
+				3A5DCD9C24F7B0B300C75460 /* ChangeObserver.swift in Sources */,
+				3ABDE12324F7739400CE8F6D /* ButtonStyle + PriceButton.swift in Sources */,
+				3ABDE12B24F7740E00CE8F6D /* Colors.swift in Sources */,
+				3ABDE11324F7733B00CE8F6D /* ContentView.swift in Sources */,
+				3ABDE13124F774AD00CE8F6D /* Int.swift in Sources */,
+				3ABDE12624F773C100CE8F6D /* MPrice.swift in Sources */,
+				3ABDE11124F7733B00CE8F6D /* xPriceButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3ABDE11A24F7733C00CE8F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ABDE11B24F7733C00CE8F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ABDE11D24F7733C00CE8F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"xPriceButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = xPriceButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccaa.xPriceButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ABDE11E24F7733C00CE8F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"xPriceButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = xPriceButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccaa.xPriceButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ABDE10824F7733B00CE8F6D /* Build configuration list for PBXProject "xPriceButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABDE11A24F7733C00CE8F6D /* Debug */,
+				3ABDE11B24F7733C00CE8F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABDE11C24F7733C00CE8F6D /* Build configuration list for PBXNativeTarget "xPriceButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABDE11D24F7733C00CE8F6D /* Debug */,
+				3ABDE11E24F7733C00CE8F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ABDE10524F7733B00CE8F6D /* Project object */;
+}
