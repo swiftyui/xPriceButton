@@ -1,6 +1,6 @@
 # Description
 
-A SwiftUI demo on onChange reimplementation for iOS 13/14
+A SwiftUI demo on `onChange` reimplementation for iOS 13/14
 
 ## `onChange` Reimplementation
 
